@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+}
+
+.header {
+    background-image: url(drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    background-color: #c5baba;
+     color: #8e7754;
+   
+}
+
+.logo img {
+
+    width: 170px;
+    height: 50px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 20px;
+    
+}
+
+.links a:hover {
+    color: #e4c857;
+}
+
+.links ul li {
+
+    margin: 10px;
+    display: inline;
+}
+
+.home {
+    text-align: center;
+    padding: 50px;
+    margin: 30px;
+}
+
+.home p {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.home h1 {
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 70px;
+}
+
+.home .btn {
+
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn-one {
+    background-color: #e4c857;
+}
+
+.btn-two {
+    background-color: transparent;
+}
+
+.home .btn:hover {
+
+    background-color: #fff;
+    color: black;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about img {
+    height: 500px;
+    max-width: 800px;
+    padding: 40px;
+    margin: 40px;
+
+}
+
+.content {
+    padding-top: 100px;
+    margin: 20px;
+
+}
+
+.content h1 {
+    color: rgb(76, 73, 73);
+    font-size: 30px;
+}
+
+.content p {
+    color: rgb(95, 87, 87);
+    padding-top: 30px;
+    line-height: 30px;
+    width: 600px;
+}
+
+.icons {
+
+    color: black;
+}
+
+.icons i {
+    color: #8e7754;
+    margin-top: 25px;
+    padding: 15px;
+    border: 2px solid rgb(210, 187, 173);
+    border-radius: 50%;
+}
+
+.part {
+    display: flex;
+    flex-direction: row;
+}
+
+.OurOffer {
+    display: flex;
+    flex-direction: row;
+}
+
+.OurOffer img {
+    height: 500px;
+    max-width: 800px;
+    padding: 50px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+
+}
+
+.contant {
+    padding-top: 130px;
+    margin: 30px;
+}
+
+.contant h1 {
+    color: rgb(111, 103, 103);
+    font-size: 30px;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+.contant p {
+    color: #848282;
+    padding-top: 30px;
+    padding-left: 40px;
+    line-height: 30px;
+    width: 500px;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.Gallery {
+    text-align: center;
+}
+
+.con {
+    display: flex;
+    /* flex-direction: row; */
+    width: 90%;
+    margin: auto;
+}
+
+.Gallery p {
+    color: #848282;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    line-height: 30px;
+    font-size: 17px;
+   
+}
+
+.Gallery h1 {
+    color: rgb(111, 103, 103);
+    font-size: 30px;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+.cart{
+    text-align: center;
+    border: #ccc solid 1px;
+    justify-content: space-between;
+
+}
+
+.cart h1 {
+    color: rgb(77, 77, 77);
+    font-size: 30px;
+    margin: 20px;
+    padding-left: 15px;
+}
+
+.cart p {
+    color: #848282;
+    padding-top: 20px;
+    width: 300px;
+    margin: 20px;
+    font-size: 17px;
+}
+.cart.cart1 img{
+    width: 40%;
+    margin: auto;
+}
+.cart.cart2 img{
+    /* width: 450px; */
+    margin: auto;
+    width: 40%;
+}
+.cart.cart3 img{
+    /* width: 450px; */
+    width: 40%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.contact h1 {
+    color: rgb(111, 103, 103);
+    font-size: 30px;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+.contact p {
+    color: #848282;
+    
+    padding-left: 40px;
+    line-height: 30px;
+     margin: 15px;
+    font-size: 17px;
+    width: 800px;
+}
+
+.location{
+    padding-left: 40px;
+    padding-top: 20px;
+    float: left;
+}
+.foot i{
+    color: #8e7754;
+    padding: 10px;
+    border: 2px solid rgb(210, 187, 173);
+    border-radius: 50%;
+    padding-top: 5px;
+} 
+.foot p{
+    color: rgb(82, 78, 78);
+    margin: 15px;
+    line-height: 30px;
+    
+    
+}
+
+.icons {
+
+        color: black;
+    }
+    
+ .cont i {
+        color: #8e7754;
+        padding: 10px;
+        border: 2px solid rgb(210, 187, 173);
+        border-radius: 50%;
+        float: left;
+    }
+ .forms input{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    
+ }   
+
+.social_icon {
+    font-size: 1.5em;
+    color: black;
+}
+
+.social_icon a {
+    font-size: 2em;
+    margin-left: 10px;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+    transition: 1s ease;
+}
+
+.social_icon a:hover {
+    color: rgb(241, 169, 96);
+    transition: 3s ease;
+}
